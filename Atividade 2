@@ -1,0 +1,21 @@
+//Exercício de um método que faz a leitura de um número pelo console.
+import java.util.Scanner;
+public class Numeroleitor {
+
+   public static int lerNumero() {
+       int total;
+       int num;
+       Scanner scanner = new Scanner(System.in);
+
+       System.out.print("Digite um número: ");
+       num = scanner.nextInt();
+
+       total = num * 10;
+
+       System.out.print("O valor multiplicado por 10 é: " + total);
+       return total;
+   }
+   public static void main(String[] args) {
+   lerNumero();
+   }
+}
