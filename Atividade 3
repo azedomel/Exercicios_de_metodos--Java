@@ -2,22 +2,22 @@
 import java.util.Scanner;
 public class Doisvalores {
 
-   public static float doisValores(){
-       float v1, v2, total;
-       Scanner scanner = new Scanner(System.in);
+    public static float doisValores(){
+        float v1, v2, total;
+        Scanner sc = new Scanner(System.in);
 
-       System.out.println("Digite o valor 1: ");
-       v1 = scanner.nextInt();
+        System.out.println("Digite o valor 1: ");
+        v1 = sc.nextInt();
 
-       System.out.println("Digite o valor 2: ");
-       v2 = scanner.nextInt();
+        System.out.println("Digite o valor 2: ");
+        v2 = sc.nextInt();
 
-       total = v1 + v2;
+        total = v1 + v2;
 
-       System.out.println("A soma dos dois valores é: " + total);
-       return v1;
-   }
-   public static void main(String[] args) {
-       doisValores();
-   }
+        System.out.println("A soma dos dois valores é: " + total);
+        return total;
+    }
+    public static void main(String[] args) {
+        doisValores();
+    }
 }
