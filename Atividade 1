@@ -1,0 +1,15 @@
+//Exercício de método sem retorno que faz a leitura de um nome pelo console.
+import java.util.Scanner;
+public class Principal {
+
+   public static void lerEImprimirNome() {
+       Scanner scanner = new Scanner(System.in);
+
+       System.out.print("Digite seu nome: ");
+       String nome = scanner.nextLine();
+       System.out.println("Nome digitado: " + nome);
+   }
+   public static void main(String[] args) {
+       lerEImprimirNome();
+   }
+}
